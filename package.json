@@ -1,0 +1,25 @@
+{
+  "name": "cypress-youtube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:override": "cypress run --browser edge --config viewportWidth=1280,viewportHeight=720",
+    "cy:parallel": "cypress run --record --key=9f520cf5-3635-4707-882b-9209d5d0b7a0 --parallel",
+    "cy:run": "cypress run",
+    "cy:verify": "cypress verify",
+    "cy:info": "cypress info",
+    "cy:ci": "cypress run --record --key=9f520cf5-3635-4707-882b-9209d5d0b7a0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.1.0",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "cypress-downloadfile": "^1.2.3"
+  }
+}

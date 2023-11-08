@@ -3,6 +3,7 @@ const { downloadFile } = require('cypress-downloadfile/lib/addPlugin');
 const { rm } = require('fs');
 
 module.exports = defineConfig({
+  projectId: 'ma9xj2',
   e2e: {
     setupNodeEvents(on, config) {
       on('task', {downloadFile}),

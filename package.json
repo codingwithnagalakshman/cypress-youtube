@@ -9,7 +9,7 @@
     "cy:run": "cypress run",
     "cy:verify": "cypress verify",
     "cy:info": "cypress info",
-    "cy:cloud": "cypress run --record --parallel --key 4300bd31-809d-43ca-9144-d34864507994"
+    "cy:cloud": "cypress run --record --key 4300bd31-809d-43ca-9144-d34864507994"
   },
   "keywords": [],
   "author": "",

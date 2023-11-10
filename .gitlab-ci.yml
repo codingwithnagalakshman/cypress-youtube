@@ -1,0 +1,12 @@
+stages:
+  - test
+
+test:
+  image: cypress/browsers:node-20.9.0-chrome-118.0.5993.88-1-ff-118.0.2-edge-118.0.2088.46-1
+  stage: test
+  parallel: 5
+  script:
+    # install dependencies
+    - npm ci
+    # run Cypress tests
+    - npm run cy:cloud

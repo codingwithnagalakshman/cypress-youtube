@@ -9,7 +9,7 @@
     "cy:run": "cypress run --spec 'cypress/e2e/test1/**/*'",
     "cy:verify": "cypress verify",
     "cy:info": "cypress info",
-    "cy:cloud": "cypress run --spec 'cypress/e2e/test1/**/*' --record --key 4300bd31-809d-43ca-9144-d34864507994"
+    "cy:cloud": "NO_COLOR=1 cypress run --spec 'cypress/e2e/test1/**/*' --record --key 4300bd31-809d-43ca-9144-d34864507994"
   },
   "keywords": [],
   "author": "",

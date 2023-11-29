@@ -14,6 +14,11 @@ pipeline {
                sh 'npm run cy:cloud'
            }
        }
+      stage('e2e Tests') {
+           steps {
+               sh 'npm run cy:override'
+           }
+       }
        stage('Deploy') {
            steps {
                echo 'Deploying....'

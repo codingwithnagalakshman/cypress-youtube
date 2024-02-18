@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-    "cy:override": "cypress run --browser edge --config viewportWidth=1280,viewportHeight=720",
+    "cy:override": "cypress run --browser electron --config viewportWidth=1280,viewportHeight=720",
     "cy:run": "cypress run --spec 'cypress/e2e/test1/**/*'",
     "cy:verify": "cypress verify",
     "cy:info": "cypress info",
@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^13.1.0",
+    "cypress": "^13.6.0",
     "fs": "^0.0.1-security"
   },
   "devDependencies": {

@@ -9,7 +9,10 @@
     "cy:run": "cypress run --spec 'cypress/e2e/test1/**/*'",
     "cy:verify": "cypress verify",
     "cy:info": "cypress info",
-    "cy:cloud": "cypress run --spec 'cypress/e2e/test1/**/*' --record --key 4300bd31-809d-43ca-9144-d34864507994"
+    "cy:cloud": "cypress run --spec 'cypress/e2e/test1/**/*' --record --key 4300bd31-809d-43ca-9144-d34864507994",
+    "cy:dev": "cypress open --config-file dev.config.js",
+    "cy:stage": "cypress open --config-file stage.config.js",
+    "cy:prod": "cypress open --config-file prod.config.js"
   },
   "keywords": [],
   "author": "",
